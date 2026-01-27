@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+migrations/
+instance
+node_modules/
+
+__pycache__/
+*.pyc
+venv/
+.env
