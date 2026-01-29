@@ -6,7 +6,6 @@
 
 from extensions import db
 from sqlalchemy import Integer, String, Column, ForeignKey
-from typing import List
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 
 ##TODO: Step 1

@@ -1,4 +1,4 @@
-# from models import Patient, Appointment # Your models may differ. Here is an example
+from models import Patient, Appointment
 from flask import request, jsonify, make_response
 from sqlalchemy import select
 
@@ -7,14 +7,14 @@ from sqlalchemy import select
 # 2. Create rest endpoint that adds an appointment record
 
 ## TODO: Step 2  Retrieve records from table
-# 1. Get all patient records
-# 2. Get patient record by name or birthday
-# 3. Get appointments for given patient
+# 1. Create rest endpoint that can get patient record by ID
+# 2. Create rest endpoint that can get appointment record by ID
 
 ## TODO: Step 3. Update a record / Delete a record
-# 1. Change patient appointment date
-# 2. Update address or phone number for a patient
-# 3. Delete an appointment & relationship record
+# 1. Create rest endpoint that can change patient appointment data
+# 2. Create rest endpoint that can update patient data
+# 3. Create rest endpoint that can delete an appointment record
+# 4. Create rest endpoint that can delete a patient record
 
 class RestRoutes:
     def __init__(self, app, db):
