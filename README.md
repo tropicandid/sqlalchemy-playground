@@ -19,6 +19,10 @@ Begin by opening the `/app/models/__init__.py` file and reading the instructions
 Once you have completed the model manipulation tasks, you can move onto the database 
 interaction tasks in the app root dunder init located `/app/__init__.py`.
 
+I've included a Postman collection export called SQLAlchemy_Playground.postman_collection.json. 
+These postman calls corresponds with each of the sample solution REST endpoints. You can use 
+these to compare or recreate your own endpoint tests.
+
 ## Local Setup
 This is a pretty basic setup configured to leverage a local sqlite database. You can extend this to fit your needs 
 by modifying the environment variables in the env.default file. 
